@@ -1,4 +1,4 @@
-## TWRP device tree for Samsung Galaxy Note 4 Exynos 3CAL-LTE KOR (tre3calteskt)
+## TWRP device tree for Samsung Galaxy Note 4 Exynos (trhpltexx)
 
  Copyright (C) 2019 Ananjaser1211 Open-Source
 
@@ -15,12 +15,12 @@
  limitations under the License.
 
 
-Add to `.repo/local_manifests/tre3calteskt.xml`:
+Add to `.repo/local_manifests/trhpltexx.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/tre3calteskt" name="android_device_samsung_tre3calteskt" remote="ananjaser1211" revision="twrp-7.1_tre3calteskt" />
+	<project path="device/samsung/trhpltexx" name="android_device_samsung_trhpltexx" remote="ananjaser1211" revision="twrp-7.1_trhpltexx" />
 </manifest>
 ```
 
@@ -30,7 +30,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_tre3calteskt-eng
+lunch omni_trhpltexx-eng
 make -j5 recoveryimage
 ```
 
