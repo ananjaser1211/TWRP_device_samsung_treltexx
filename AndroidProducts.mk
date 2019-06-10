@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/tbelteskt/
+LOCAL_PATH := device/samsung/tre3calteskt/
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_tbelteskt.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_tre3calteskt.mk

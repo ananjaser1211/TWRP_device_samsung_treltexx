@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-ifneq ($(filter tbelteskt,$(TARGET_DEVICE)),)
+ifneq ($(filter tre3calteskt,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

@@ -1,4 +1,4 @@
-## TWRP device tree for Samsung Galaxy Note 4 Edge Exynos LTE (tbelteskt)
+## TWRP device tree for Samsung Galaxy Note 4 Exynos 3CAL-LTE KOR (tre3calteskt)
 
  Copyright (C) 2019 Ananjaser1211 Open-Source
 
@@ -15,12 +15,12 @@
  limitations under the License.
 
 
-Add to `.repo/local_manifests/tbelteskt.xml`:
+Add to `.repo/local_manifests/tre3calteskt.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/tbelteskt" name="android_device_samsung_tbelteskt" remote="ananjaser1211" revision="twrp-7.1_tbelteskt" />
+	<project path="device/samsung/tre3calteskt" name="android_device_samsung_tre3calteskt" remote="ananjaser1211" revision="twrp-7.1_tre3calteskt" />
 </manifest>
 ```
 
@@ -30,7 +30,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_tbelteskt-eng
+lunch omni_tre3calteskt-eng
 make -j5 recoveryimage
 ```
 

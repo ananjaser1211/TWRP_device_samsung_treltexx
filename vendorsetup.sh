@@ -1,2 +1,2 @@
-add_lunch_combo omni_tbelteskt-eng
-add_lunch_combo omni_tbelteskt-userdebug
+add_lunch_combo omni_tre3calteskt-eng
+add_lunch_combo omni_tre3calteskt-userdebug
