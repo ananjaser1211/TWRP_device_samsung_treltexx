@@ -25,9 +25,9 @@ PRODUCT_COPY_FILES += \
     bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := trelteskt
-PRODUCT_RELEASE_NAME := trelteskt
-PRODUCT_NAME := omni_trelteskt
-PRODUCT_MODEL := SM-N910S
+PRODUCT_DEVICE := tbelteskt
+PRODUCT_RELEASE_NAME := tbelteskt
+PRODUCT_NAME := omni_tbelteskt
+PRODUCT_MODEL := SM-N915S
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

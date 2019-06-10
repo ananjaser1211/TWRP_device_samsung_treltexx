@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_TREE := device/samsung/trelteskt
+DEVICE_TREE := device/samsung/tbelteskt
 
 CM_PLATFORM_SDK_VERSION := 7	# Required for libf2fs.so
 override TARGET_OUT_VENDOR_SHARED_LIBRARIES = $(TARGET_OUT_SHARED_LIBRARIES)
@@ -41,9 +41,9 @@ TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/trelteskt/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/tbelteskt/kernel
 BOARD_KERNEL_BASE := 0x10000000
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/trelteskt/dt.img
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/tbelteskt/dt.img
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 14680064
