@@ -1,4 +1,4 @@
-## TWRP device tree for Samsung Galaxy Note 4 Edge Exynos LTE (tbelteskt)
+## TWRP device tree for Samsung Galaxy Note 4 Edge Exynos LTE N915S/L/K (tbelteskt)
 
  Copyright (C) 2019 Ananjaser1211 Open-Source
 
