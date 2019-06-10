@@ -1,4 +1,4 @@
-## TWRP device tree for Samsung Galaxy Note 4 Exynos 3CAL-LTE KOR (tre3calteskt)
+## TWRP device tree for Samsung Galaxy Note 4 Exynos 3CAL-LTE KOR N916S/L/K (tre3calteskt)
 
  Copyright (C) 2019 Ananjaser1211 Open-Source
 
